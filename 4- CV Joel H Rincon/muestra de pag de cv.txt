@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULUM VITAE</title>
+
+</head>
+<body>
+  <header> 
+  <img src="img/">
+  </header>
+  <h1> CURRICULUM VITAE DE FACUNDO</h1>
+
+  <h2> Datos personales</h2>
+  
+  <ul>
+    <li><span class="negrita_y_cursiva">Nombre completo: </span>Facundo Stabile Montes de Oca</li>
+    <li><span class="negrita_y_cursiva">Fecha de nacimiento: </span>26/10/1992</li>
+    <li><span class="negrita_y_cursiva">Lugar de nacimiento: </span>Montevideo</li>
+</ul>
+
+
+  <h2> Formación Academica</h2>
+  <br>
+
+  
+  <ul type="none">
+    <li><span id="negrita">2014-2020: </span>Universidad de la republica</li> <br>
+    <li><span id="negrita">2005-2013: </span>Liceo maristas</li>
+  </ul>
+
+ <h2> Experiencia laboral</h2>
+
+ <ul type="none">
+    <li><span id="negrita">2020-Actualidad: </span>OLAM.

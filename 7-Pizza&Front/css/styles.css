@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.menu a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    background-color:whitesmoke;
+    flex-grow: 1;
+}
+
+.delivery{
+    display: flex;
+    flex-grow: 0.5;
+    margin: 40px;
+    
+    
+}
+
+.banner{
+    display: inline;
+    position: absolute;
+    z-index: 1;
+    bottom: 490px;
+    color:red;
+    left: 70px;
+    top: 150px;
+    flex-grow: 0.5;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+
+
+.banner span{
+    color: white;
+    
+}
+
+.podio{
+    width: 500px;
+    background-color: white;
+    flex-grow: 0.5;
+    padding: 20px;
+    padding-left: 50px;
+    margin: 40px;
+}
+
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.podio h2{
+    text-align: center;
+    color: red;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.podio h3{
+    padding-left: 40px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.pila{
+
+    display: flex;
+    flex-grow: 0.2;
+    
+}
+
+.podio img{
+    width: 200px;
+    padding-right: 80px;
+    
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    color:white;
+    line-height: 25px;
+    padding-right: 40px;
+}
